@@ -1,2 +1,1 @@
-web: gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app
-server = app.server
+web: python classifier/main.py
