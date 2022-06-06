@@ -1,1 +1,1 @@
-web: python classifier/main.py
+web: python main.py
